@@ -50,3 +50,7 @@ real    0m0.363s
 user    0m1.601s
 sys     0m0.281s
 ```
+
+## License
+
+Licensed under the MIT License (see [LICENSE](LICENSE)).
