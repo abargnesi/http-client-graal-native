@@ -32,10 +32,21 @@ Command:
 usage: http-client URL COUNT
 ```
 
-Example:
+Examples:
+
+Request the `https://example.com` website once.
 
 ```sh
 $ http-client https://example.com 1
 200
 ```
 
+Request the `https://example.com` one-hundred times then output total time.
+
+```sh
+$ time target/http-client https://example.com 100 > /dev/null
+
+real    0m0.363s
+user    0m1.601s
+sys     0m0.281s
+```
