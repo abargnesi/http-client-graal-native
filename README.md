@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Provide a simple example project on how to use GraalVM JDK 11, native-image, and Maven.
+Provide a simple example project on how to use GraalVM JDK 11, native-image, and Maven together.
 
-I also wanted to experiment with the recentJava HttpClient API.
+I also wanted to experiment with the Java HttpClient API.
 
 ## Components
 
@@ -18,7 +18,7 @@ Graal
 
 Prerequisites:
 1. Install GraalVM.
-2. Install native-image with `gu install native-image`.
+1. Install native-image with `gu install native-image`.
 
 Run `mvn clean verify` to build `http-client` binary and run integration tests against it.
 
